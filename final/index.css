@@ -2,6 +2,10 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+.back {
+    background-color: #df87874d
+}
+
 #p1 {
     width: 500px;
     height: 500px;
