@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8 ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible " content="ie=edge ">
+    <title>換裝設計小遊戲！</title>
+
+    <!-- 引用 Bootstrap 的 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- 引用 Google 中文字型 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <!-- 引用自己的css -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body background="./yellow-polka-dot-background.jpg">
+    <!-- 頂標 -->
+    <nav class="navbar navbar-light " style="background-color: #e3f2fd ">
+        <!-- Navbar content -->
+        <a class="navbar-brand font" href="#">換裝設計小遊戲！</a>
+        <!-- 按鈕 -->
+        <!-- <div class="row">
+            <div class="col font">
+                <button type="button" class="btn btn-outline-danger">快樂音樂/-</button>
+                <button type="button" class="btn btn-outline-warning">緩緩音樂/-</button>
+            </div>
+        </div> -->
+    </nav>
+
+
+    <div class="closet">
+        <!-- 試用疊圖 -->
+        <img src="./image/身體底圖.png" id="p1">
+
+
+
+        <div class="row">
+            <div class="col-sm-1">
+                <div> <img src="./image/髮型長藍.png" id="h1" class="initial"></div>
+                <div><button id="h1b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/髮型盤棕.png" id="h2" class="initial"></div>
+                <div><button id="h2b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/髮型辮灰.png" id="h3" class="initial"></div>
+                <div><button id="h3b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/髮型短黑.png" id="h4" class="initial"></div>
+                <div><button id="h4b">+/-</button></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1">
+                <div><img src="./image/衣服短棕.png" id="h5" class="initial"></div>
+                <div><button id="h5b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/衣服短黑.png" id="h6" class="initial"></div>
+                <div><button id="h6b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/衣服中紅.png" id="h14" class="initial"></div>
+                <div><button id="h14b">+/-</button></div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-1">
+                <div><img src="./image/裙子長麻.png" id="h7" class="initial"></div>
+                <div><button id="h7b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div>
+                    <img src="./image/裙子窄藍.png" id="h8" class="initial">
+                    <div><button id="h8b">+/-</button></div>
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/褲子長黑.png" id="h15" class="initial"></div>
+                <div><button id="h15b">+/-</button></div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-sm-1">
+                <div><img src="./image/鞋子靴黑.png" id="h9" class="initial"></div>
+                <div><button id="h9b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/鞋子包白.png" id="h10" class="initial"></div>
+                <div><button id="h10b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/鞋子球紅.png" id="h16" class="initial"></div>
+                <div><button id="h16b">+/-</button></div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-sm-1">
+                <div><img src="./image/底圖可愛.png" id="h11" class="initial"></div>
+                <div><button id="h11">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/底圖自然.png" id="h12" class="initial"></div>
+                <div><button id="h12b">+/-</button></div>
+            </div>
+            <div class="col-sm-1">
+                <div><img src="./image/底圖演唱.png" id="h13" class="initial"></div>
+                <div><button id="h13b">+/-</button></div>
+            </div>
+        </div> -->
+
+    </div>
+    <!-- ====== Footer Area ====== -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="copyright-text">
+                        <p class="text-black font">換裝設計小遊戲！｜黃詩媛製</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== // Footer Area ====== -->
+
+    <!-- 引用 Bootstrap 的 JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

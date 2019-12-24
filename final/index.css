@@ -1,0 +1,177 @@
+.font {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#p1 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 60%;
+    bottom: 11%;
+}
+
+#h1b {
+    position: absolute;
+    left: 125px;
+    bottom: 50%;
+    z-index: 5;
+}
+
+#h2b {
+    position: absolute;
+    left: 125px;
+    bottom: 50%;
+    z-index: 5;
+}
+
+#h3b {
+    position: absolute;
+    left: 125px;
+    bottom: 50%;
+    z-index: 5;
+}
+
+#h4b {
+    position: absolute;
+    left: 125px;
+    bottom: 50%;
+    z-index: 5;
+}
+
+#h5b {
+    position: absolute;
+    left: 125px;
+    bottom: 30%;
+    z-index: 5;
+}
+
+#h6b {
+    position: absolute;
+    left: 125px;
+    bottom: 30%;
+    z-index: 5;
+}
+
+#h14b {
+    position: absolute;
+    left: 125px;
+    bottom: 30%;
+    z-index: 5;
+}
+
+#h7b {
+    position: absolute;
+    left: 125px;
+    bottom: 5%;
+    z-index: 5;
+}
+
+#h8b {
+    position: absolute;
+    left: 125px;
+    bottom: 5%;
+    z-index: 5;
+}
+
+#h15b {
+    position: absolute;
+    left: 125px;
+    bottom: 5%;
+    z-index: 5;
+}
+
+#h9b {
+    position: absolute;
+    left: 125px;
+    bottom: 30%;
+    z-index: 5;
+}
+
+#h10b {
+    position: absolute;
+    left: 125px;
+    bottom: 30%;
+    z-index: 5;
+}
+
+#h16b {
+    position: absolute;
+    left: 125px;
+    bottom: 30%;
+    z-index: 5;
+}
+
+
+/* #h11b {
+    position: absolute;
+    left: 150px;
+    bottom: 10%;
+    z-index: 5;
+}
+
+#h12b {
+    position: absolute;
+    left: 150px;
+    bottom: 10%;
+    z-index: 5;
+}
+
+#h13b {
+    position: absolute;
+    left: 150px;
+    bottom: 10%;
+    z-index: 5;
+} */
+
+.initial {
+    /* position: absolute; */
+    width: 250px;
+    height: 250px;
+    ;
+    /* z-index: 1; */
+}
+
+.move1 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 60%;
+    bottom: 11%;
+    z-index: 2;
+}
+
+.move2 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 60%;
+    bottom: 11%;
+    z-index: 3;
+}
+
+.move3 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 60%;
+    bottom: 11%;
+    z-index: 4;
+}
+
+.move4 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 60%;
+    bottom: 11%;
+    z-index: 5;
+}
+
+.move5 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 60%;
+    bottom: 11%;
+    z-index: 6;
+}
